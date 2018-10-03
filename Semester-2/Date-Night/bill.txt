@@ -1,0 +1,19 @@
+Dinner Guest: David
+	Arugula Casserole              	 $ 15.18
+	Bacon Soda                     	 $  5.00
+Dinner Guest: Alex
+	Temujin Dumplings              	 $  4.00
+	Arugula Casserole              	 $ 15.18
+	Bacon Soda                     	 $  5.00
+	Lemon Loaf                     	 $ 10.66
+Dinner Guest: Marjorie
+	Arugula Casserole              	 $ 15.18
+	Cabernet Sauvignon             	 $ 72.01
+Dinner Guest: George
+	Goat Cheese Pizza              	 $ 14.93
+	Cabernet Sauvignon             	 $ 72.01
+	Pork Aspic                     	 $  9.80
+	Subtotal                       	 $238.95
+	Happy Hour Discount            	 $ 10.00
+	HST 15%                        	 $ 34.34
+	Total                          	 $263.29

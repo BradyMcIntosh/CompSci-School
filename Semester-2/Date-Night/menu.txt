@@ -1,0 +1,16 @@
+Drinks,Purple Drank,7.50
+Drinks,Bacon Soda,5.00
+Drinks,Eau de Tortue,15.95
+Drinks,Cabernet Sauvignon,72.01
+Appetizers,Caesar Salad,6.60
+Appetizers,Hannibal Soup,5.98
+Appetizers,Temujin Dumplings,4.00
+Appetizers,Cheng I Noodles,6.66
+Entrees,Goat Cheese Pizza,14.93
+Entrees,Arugula Casserole,15.18
+Entrees,Avocado Toast,9.21
+Entrees,Tater Tots,0.30
+Desserts,Cherry Pie,6.50
+Desserts,Blueberry Tart,3.98
+Desserts,Lemon Loaf,10.66
+Desserts,Pork Aspic,9.80
