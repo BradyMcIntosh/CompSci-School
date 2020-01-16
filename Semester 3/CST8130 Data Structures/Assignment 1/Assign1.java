@@ -1,41 +1,81 @@
 import java.util.Scanner;
+
 /************************************************************************************************************
-Purpose:  This Program implements a simple library resource management system.  The menu processing is in main
-Author:  Linda Crane and xxxxxxxxxx
+Purpose:  This class hosts a menu for interacting with a simple Library object.
+Author:  Brady McIntosh
+Date: 	Oct 4 2018
 Course: F2018 - CST8130
-Lab Section: xxxxxxxx
-Data members: todayDate : MyDate - represents today's date
+Lab Section: 312
+Data members:  
+Methods: main()                                            
+         
 
 *************************************************************************************************************/
-public class Assign1 {
 
+public class Assign1 {
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Library library = new Library();
-		Scanner keyboard = new Scanner (System.in);
-		MyDate todayDate = new MyDate(16,9,2018);
 		
-		String choice = new String("0");
+		Library lib = new Library();
+		Scanner scan = new Scanner(System.in);
+		MyDate today = new MyDate();
+		boolean cont = true;
+		String command = "";
 		
-		while (choice.charAt(0) != '6') {
-			System.out.print ("\nEnter 1 to add to resources borrowed, \n    2 to display overdue items, \n    3 to display all resources borrowed, \n    4 to delete a resource, \n    5 to change today date\n    6 to quit:");
-			choice = keyboard.next();
+		System.out.println("Please enter today's date:");
+		today.inputDate(scan);
+		
+		do {
+			System.out.println("Select an option.");
+			System.out.println("\t1. Borrow a resource \n\t2. Display all borrowed resources"
+					+ "\n\t3. Display overdue resources \n\t4. Return a resource"
+					+ "\n\t5. Change today's date \n\t6. Quit");
 			
-			switch (choice.charAt(0)) {
-				case '1': 	library.inputResource(keyboard, todayDate);
-							break;
-				case '2': 	System.out.println (library.itemsOverDue(todayDate));
-							break;
-				case '3': 	System.out.println (library);
-							break;
-				case '4':   library.deleteResource(keyboard, todayDate);
-							break;
-				case '5':   System.out.println ("Enter a new date for today's date");
-							todayDate.inputDate(keyboard);
-							break;
-				case '6': System.out.println ("goodbye");
+			command = scan.next();
+			
+			if(command.equals("1")) {
+				lib.inputResource(scan, today);
 			}
-		}
+			else if(command.equals("2")) {
+				System.out.println(lib);
+			}
+			else if(command.equals("3")) {
+				System.out.println(lib.resourcesOverDue(today));
+			}
+			else if(command.equals("4")) {
+				lib.deleteResource(scan, today);
+			}
+			else if(command.equals("5")) {
+				System.out.println("Please enter today's date:");
+				today.inputDate(scan);
+			}
+			else if(command.equals("6")) {
+				System.out.println("Goodbye.");
+				cont = false;
+			}
+			
+			
+		} while(cont);
+		
+		
+		
+		
+//		MyDate d2 = new MyDate();
+//		
+//		today.inputDate(scan);
+//		d2.inputDate(scan);
+//		
+//		System.out.printf("%s %s equal to %s\n", today, today.isEqual(d2)? "is": "is not", d2);
+//		System.out.printf("%s %s greater than %s\n", today, today.isGreaterThan(d2)? "is": "is not", d2);
+//		System.out.printf("%s %s greater than %s\n", d2, d2.isGreaterThan(today)? "is": "is not", today);
+//		
+//		lib.inputResource(scan, today);
+//		lib.inputResource(scan, today);
+//		lib.inputResource(scan, d2);
+//		lib.inputResource(scan, d2);
+//		
+//		System.out.println(lib);
+//		System.out.println(lib.resourcesOverDue(d2));
 		
 	}
 
