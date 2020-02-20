@@ -1,0 +1,18 @@
+Number of arguments = 6
+Argv[0] = ./L7
+Argv[1] = 2
+Argv[2] = 2.3
+Argv[3] = 4.5
+Argv[4] = 3.9
+Argv[5] = 7.5
+
+Arguments printing completed successfully
+Option: ./L7 --> Half Selected
+
+--------------------------
+Half argv[2] = 1.1
+Half argv[3] = 2.2
+Half argv[4] = 2.0
+Half argv[5] = 3.8
+--------------------------
+Half calculation completed successfully

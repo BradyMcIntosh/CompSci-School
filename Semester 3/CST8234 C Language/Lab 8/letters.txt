@@ -1,0 +1,32 @@
+Number of arguments = 6
+Argv[0] = ./L8
+Argv[1] = letters.txt
+Argv[2] = wer1*23th#8^y
+Argv[3] = 2*3ee
+Argv[4] = asdiuHIUBUIIYU
+Argv[5] = H******
+
+Arguments printing completed successfully
+Length of argument 2 = 13
+The Letter(s) = wer
+The Symbol is = *
+The Letter(s) = th
+The Symbol is = #
+The Symbol is = ^
+The Letter(s) = y
+
+Length of argument 3 = 5
+The Symbol is = *
+The Letter(s) = ee
+
+Length of argument 4 = 14
+The Letter(s) = asdiuHIUBUIIYU
+
+Length of argument 5 = 7
+The Letter(s) = H
+The Symbol is = *
+The Symbol is = *
+The Symbol is = *
+The Symbol is = *
+The Symbol is = *
+The Symbol is = *
