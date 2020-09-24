@@ -1,0 +1,50 @@
+html {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background: #eaecee;
+	margin: auto;
+	text-align: center;
+	width: 600px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h3 {
+	color: blue;
+}
+
+h4 {
+	color: pink;
+}
+
+p {
+	padding: 15px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+#header {
+	background: #d5d8dc;
+}
+
+#menu {
+	
+}
+
+#content {
+	
+}
+
+#footer {
+	background: #d5d8dc;
+}
