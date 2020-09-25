@@ -1,0 +1,87 @@
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  background: #eaecee;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  min-width: 600px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 300px;
+}
+
+.banner {
+  margin: 0px;
+  padding: 0px;
+  background-color: #d5d8dc;
+}
+
+#header {
+  position: relative;
+  background-image: url("Portrait 3.5.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header h1 {
+  margin-left: 25px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-style: italic;
+  text-align: left;
+}
+
+#header p {
+  margin-left: 15px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#menu {
+  position: absolute;
+  width: 50%;
+  min-width: 400px;
+  height: 20px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+ul {
+  width: 50%;
+  text-align: left;
+  margin-left: 25px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+
+}
+
+#menu table {
+  bottom: 0px;
+  right: 0px;
+  min-width: 350px;
+}
+
+#content {
+
+}
+
+#footer {
+  margin-top: 50px;
+}
