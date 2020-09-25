@@ -1,0 +1,105 @@
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  background: #eaecee;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  min-width: 600px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 300px;
+}
+
+.banner {
+  margin: 0px;
+  padding: 0px;
+  background-color: #d5d8dc;
+}
+
+#header {
+  position: relative;
+  background-image: url("seimfeld.jpg");
+  background-color: #cccccc;
+  height: 200px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header h1 {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-style: italic;
+  text-align: left;
+}
+
+#header p {
+  margin-left: 15px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#menu {
+  position: absolute;
+  width: 50%;
+  min-width: 400px;
+  height: 20px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+ul {
+  width: 50%;
+  text-align: left;
+  margin-left: 25px;
+}
+
+table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  table-layout: fixed;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#menu table {
+  margin-left: 0;
+  margin-right: 0;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  min-width: 350px;
+}
+
+.banner table, .banner th, .banner td,
+.session table, .session th, .session td {
+  border: none;
+}
+
+#content {
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+.session table {
+  min-width: 600px;
+}
